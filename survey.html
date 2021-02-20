@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="dessurv.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a sample survey forum.">
+        <meta name="keywords" content="Sample survery forum">
+        <title>Survey</title>
+    </head>
+    <body>
+        <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thankyou for taking time so we can improve our services!</p>
+        </header> 
+    </br></br>
+        <form id="survey-form">
+            <div>
+                <label class="font" id="name-label" for="name">Name</label></br>
+                <input 
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                />
+            </div>
+        </br> 
+            <div>
+                <label class="font" id="email-label" for="email">Email</label></br>
+                <input 
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                />
+            </div>
+        </br> 
+            <div>
+                <label class="font" id="number-label" for="number">Age <span>(optional)</span></label></br>
+                <input
+                    type="number"
+                    name="age"
+                    id="number"
+                    min="10"
+                    max="99"
+                    placeholder="Enter your age (optional)"
+                    
+                >
+            </div>
+            
+            <div>
+                 <p class="font">What is your gender?</p>
+                 <select id="dropdown" required>
+                     <option disabled selected value>Select your gender</option>
+                     <option value="male">Male</option>
+                     <option value="female">Female</option>
+                     <option value="prefernotsay">Prefer not say</option>
+                 </select>
+            
+            </div>
+
+            <div>
+                <p class="font">Would you recommend our services to a friend?</p>
+                <label class="font">
+                    <input 
+                        type="radio"
+                        name="user-recommend"
+                        value="Yes"
+                    />
+               Yes </label>
+                </br>
+               <label class="font">
+                   <input
+                        type="radio"
+                        name="user-recommend"
+                        value="Maybe"
+                        />
+               Maybe</label>
+               </br>
+               <label class="font">
+                   <input
+                        type="radio"
+                        name="user-recommend"
+                        value="No"
+                        />
+               No</label>
+            </div>
+
+            <div>
+                <p class="font" >What is your favorite service of our?</p>
+                <select id="dropdown" required>
+                    <option disabled selected value>Select Services</option>
+                    <option>Ease of Business</option>
+                    <option>Safety</option>
+                    <option>User Interface</option>
+                    <option>Application</option>
+                </select>
+            </div>
+
+            <div>
+                <p class="font">Where you think we need improvement?<span>(Check all that apply)</span></p>
+
+                <label class="font">
+                    <input
+                        type="checkbox"
+                        value="front-end-development"
+                        />
+                
+                Front End Libraries</label>
+                </br>
+                <label class="font">
+                    <input
+                        type="checkbox"
+                        value="data-struc"
+                        />
+                
+                Data Structures</label>
+            </br>
+            <label class="font">
+                <input
+                    type="checkbox"
+                    value="vid"
+                    />
+            
+            Videos</label>
+        </br>
+        <label class="font">
+            <input
+                type="checkbox"
+                value="Lectures"
+                />
+        
+            Lectures</label>
+
+        </br>
+        <label class="font">
+            <input
+                type="checkbox"
+                value="acces"
+                />
+        
+            Accessibility</label>
+
+            </div>
+
+        <div>
+            <p class="font">Any comments or suggestions</p>
+            <textarea
+                name="comment"
+                placeholder="Enter your comment here..."
+                id="text"
+
+            ></textarea>
+        </div>
+    </br>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+        </form>
+    </body>
+</html>

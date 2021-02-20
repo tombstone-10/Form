@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://cms.finnair.com/resource/blob/691172/4b2f25f2f1d9572a1bf5445d84ff4e92/amsterdam-main-data.jpg);
+    background-size: cover;
+    background-color: seashell;
+    background-blend-mode: multiply;
+
+}
+
+#title{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+#description{
+    text-align: center;
+    font-style: italic;
+}
+
+#survey-form{
+    background-color:rgba(0, 0, 0, 0.6);
+    display: block;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 0.5em;
+    padding-bottom:20px;
+    
+}
+
+#name{
+    border-radius: 0.25em;
+    border-style:solid;
+    width: 600px;
+    border-color: tomato;
+}
+#email{
+    border-radius: 0.25em;
+    border-style:solid;
+    width: 600px;
+    border-color: tomato;
+}
+#number{
+    border-radius: 0.25em;
+    border-style:solid;
+    width: 600px;
+    border-color: tomato;
+}
+#dropdown{
+    border-radius: 0.25em;
+    border-style:solid;
+    width: 600px;
+    border-color: tomato;
+    padding-bottom:5px
+}
+.font{
+   color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
+#text{
+    border-radius: 0.25em;
+    border-style:solid;
+    width: 600px;
+    border-color: tomato;
+    padding-bottom:5px
+}
+
+#submit{
+    border: solid;
+    border-style: double;
+    width: 660px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 0.5em;
+}
+#submit:hover{
+    color: white;
+    animation: normal;
+    background-color: tomato;
+}
